@@ -1,4 +1,4 @@
-package edu.nd.pmcburne.hello.ui.theme
+package edu.nd.pmcburne.campus_maps.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

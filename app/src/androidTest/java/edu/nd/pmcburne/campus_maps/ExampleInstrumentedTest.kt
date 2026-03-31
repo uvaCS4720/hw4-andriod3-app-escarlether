@@ -1,4 +1,4 @@
-package edu.nd.pmcburne.hello
+package edu.nd.pmcburne.campus_maps
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

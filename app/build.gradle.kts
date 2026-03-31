@@ -2,10 +2,11 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    id("com.google.devtools.ksp") version "1.9.22-1.0.17"
 }
 
 android {
-    namespace = "edu.nd.pmcburne.hello"
+    namespace = "edu.nd.pmcburne.campus_maps"
     compileSdk {
         version = release(36)
     }
@@ -50,6 +51,15 @@ dependencies {
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
+    implementation(libs.androidx.room3.common.jvm)
+    implementation(libs.firebase.crashlytics.buildtools)
+    implementation(libs.androidx.room3.runtime)
+    implementation(libs.play.services.maps)
+    implementation("com.squareup.retrofit2:retrofit:2.11.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.11.0")
+    implementation("com.google.maps.android:maps-compose:4.3.3")
+    implementation("com.google.android.gms:play-services-maps:18.2.0")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.0")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

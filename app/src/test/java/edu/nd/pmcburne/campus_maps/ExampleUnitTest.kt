@@ -1,4 +1,4 @@
-package edu.nd.pmcburne.hello
+package edu.nd.pmcburne.campus_maps
 
 import org.junit.Test
 
