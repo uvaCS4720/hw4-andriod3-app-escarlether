@@ -1,1 +1,4 @@
 /build
+local.properties
+# If you created a custom file:
+secrets.properties

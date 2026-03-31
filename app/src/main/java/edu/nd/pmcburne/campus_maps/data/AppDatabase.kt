@@ -1,13 +1,11 @@
 package edu.nd.pmcburne.campus_maps.data
 
-import android.annotation.SuppressLint
 import android.content.Context
-import androidx.room3.Database
-import androidx.room3.Room
-import androidx.room3.RoomDatabase
-import androidx.room3.TypeConverters
+import androidx.room.Database
+import androidx.room.Room
+import androidx.room.RoomDatabase
+import androidx.room.TypeConverters
 
-@SuppressLint("RestrictedApi")
 @Database(entities = [CampusLocation::class], version = 1, exportSchema = false)
 @TypeConverters(TagListConverter::class)
 abstract class AppDatabase : RoomDatabase() {

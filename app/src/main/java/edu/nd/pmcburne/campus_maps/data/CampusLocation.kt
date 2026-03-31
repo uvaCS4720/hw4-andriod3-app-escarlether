@@ -1,8 +1,8 @@
 package edu.nd.pmcburne.campus_maps.data
 
-import androidx.room3.PrimaryKey
-import androidx.room3.Embedded
-import androidx.room3.Entity
+import androidx.room.PrimaryKey
+import androidx.room.Embedded
+import androidx.room.Entity
 
 @Entity(tableName = "locations")
 data class CampusLocation(

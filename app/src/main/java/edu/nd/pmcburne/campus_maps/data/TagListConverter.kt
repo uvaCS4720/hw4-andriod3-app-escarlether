@@ -1,6 +1,6 @@
 package edu.nd.pmcburne.campus_maps.data
 
-import androidx.room3.TypeConverter
+import androidx.room.TypeConverter
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 
