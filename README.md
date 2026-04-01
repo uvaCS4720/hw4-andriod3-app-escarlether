@@ -1,1 +1,18 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/e4rOHRfR)
+# Campus Maps
+
+This assignment uses API calls to obtain info in the JSON format and displays it on Google Maps.
+
+## Features
+
+* Uses Google Maps
+* Allows you to see descriptions of useful buildings
+* Perfect for visitors and first-years
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+* Android Studio
+* GitHub
+
+
+
